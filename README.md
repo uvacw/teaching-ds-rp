@@ -13,3 +13,9 @@ data collection.
 
 In the third week, we will conduct data analysis and visualize your 
 research results.
+
+
+## General setup
+
+### Week 1
+In week 1, we focus on the development of a recommender system. In fact, you already did this in CCS2. You are free to re-use materials from there. However, focus on the *comparison* between multiple setups.
