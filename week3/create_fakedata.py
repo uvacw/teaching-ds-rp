@@ -20,4 +20,11 @@ df = pd.concat([pd.DataFrame({'dv':g1,'group':1}),
 df['gender'] = gender
 df['age'] = age
 
+
+df['x1'] = df['dv'] * np.random.normal() + .2
+df['x2'] = df['dv'] * np.random.normal(scale=1.1) - .3
+df['x3'] = df['dv'] * np.random.power(2)
+df['x4']  = df['dv'] * np.random.normal() 
+df['x5']  = df['dv'] * np.random.normal()**2
+
 df.to_csv('data.csv', index=False)
